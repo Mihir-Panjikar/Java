@@ -6,7 +6,7 @@ import java.util.Arrays;
 //This sorting method can only be used when the numbers are continuous that every number should be present from 1 to n
 public class Cyclic_Sort {
     public static void main(String[] args) {
-        int[] arr = {4, 0, 2, 1};
+        int[] arr = {4, 3, 2, 1};
         Cyclic_sort(arr);
         System.out.println(Arrays.toString(arr));
     }

@@ -13,23 +13,39 @@ public class Find_the_duplicate_number_Leet {
     static int Cyclic_sort(int[] arr) {
         int i = 0;
         while(i < arr.length){
-            int correct = arr[i] - 1;
-            if (arr[i] < arr.length && arr[i] != arr[correct]){
-                swap(arr, i, correct);
+
+            if (arr[i] != i + 1) {
+                int correct = arr[i] - 1;
+                if (arr[i] != arr[correct]) {
+                    swap(arr, i, correct);
+                }
+                else {
+                    return arr[i];
+                }
             }
-            else i++;
+            else {
+                i++;
+            }
+
+//            My attempt
+
+//            int correct = arr[i] - 1;
+//            if (arr[i] < arr.length && arr[i] != arr[correct]){
+//                swap(arr, i, correct);
+//            }
+//            else i++;
         }
 
-        // Search for duplicate number
-        int ans = 0;
-        for (int index = 0; index < arr.length; index++) {
-            if(arr[index] != index + 1) {
-                ans = arr[index];
-                break;
-            }
-        }
-        return ans;
-
+//        // Search for duplicate number
+//        int ans = 0;
+//        for (int index = 0; index < arr.length; index++) {
+//            if(arr[index] != index + 1) {
+//                ans = arr[index];
+//                break;
+//            }
+//        }
+//        return ans;
+        return -1;
     }
 
     static void swap(int[] arr, int first, int second) {
