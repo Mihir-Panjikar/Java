@@ -2,7 +2,7 @@ package com.Practice._3;
 
 import java.util.Scanner;
 
-public class vote_eligible {
+public class Vote_eligible {
     public static void main(String[] args) {
         vote();
     }

@@ -12,7 +12,7 @@ Product of digits = 2 * 3 * 4 = 24
 Sum of digits = 2 + 3 + 4 = 9
 Result = 24 - 9 = 15
  */
-public class leet_code_1 {
+public class Leet_code_1 {
     public static void main(String[] args) {
         System.out.print("Enter a number of more than 1 digit: ");
         Scanner in = new Scanner(System.in);

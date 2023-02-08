@@ -2,7 +2,7 @@ package com.Practice._1;
 
 import java.util.Scanner;
 
-public class num_ope {
+public class Num_ope {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter 2 numbers and the operation to be performed: ");

@@ -1,8 +1,6 @@
 package com.Practice._3;
 
-import java.util.Scanner;
-
-public class prime_nums {
+public class Prime_nums {
     public static void main(String[] args) {
         prime(2, 100);
     }

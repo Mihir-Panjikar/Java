@@ -30,7 +30,7 @@ import java.util.Arrays;
 //        Example 3:
 //        Input: candies = [12,1,12], extraCandies = 10
 //        Output: [true,false,true]
-public class kids_greatest_candies {
+public class Kids_greatest_candies {
     public static void main(String[] args) {
         int[] candies = {4,2,1,1,2};
         System.out.println(Arrays.toString(highest_candies(candies,1)));

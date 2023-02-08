@@ -2,7 +2,7 @@ package com.Practice._3;
 
 import java.util.Scanner;
 
-public class prime_num {
+public class Prime_num {
     public static void main(String[] args) {
         prime();
     }

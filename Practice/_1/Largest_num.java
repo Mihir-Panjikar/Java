@@ -2,7 +2,7 @@ package com.Practice._1;
 
 import java.util.Scanner;
 
-public class largest_num {
+public class Largest_num {
     public static void main(String[] args) {
         System.out.println("Enter 2 numbers");
         Scanner in = new Scanner(System.in);

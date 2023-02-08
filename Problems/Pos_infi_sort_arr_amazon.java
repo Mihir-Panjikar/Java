@@ -1,6 +1,6 @@
 package com.Problems;
 
-public class pos_infi_sort_arr_amazon {
+public class Pos_infi_sort_arr_amazon {
     public static void main(String[] args) {
         int[] arr = {3, 5, 7, 9, 10, 90, 100, 130, 140, 160, 170};
         int target = 10;

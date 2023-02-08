@@ -2,7 +2,7 @@ package com.Practice._1;
 
 import java.util.Scanner;
 
-public class rs_to_usd {
+public class Rs_to_USD {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter rupees: ");

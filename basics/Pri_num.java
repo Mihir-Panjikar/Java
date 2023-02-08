@@ -2,7 +2,7 @@ package com.basics;
 
 import java.util.Scanner;
 
-public class pri_num {
+public class Pri_num {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int num = in.nextInt();

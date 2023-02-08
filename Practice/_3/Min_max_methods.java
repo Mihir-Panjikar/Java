@@ -2,7 +2,7 @@ package com.Practice._3;
 
 import java.util.Scanner;
 
-public class min_max_methods {
+public class Min_max_methods {
     public static void main(String[] args) {
         System.out.println("Enter 3 numbers:");
         Scanner in = new Scanner(System.in);

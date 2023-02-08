@@ -3,7 +3,7 @@ package com.basics;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class search_In_2DArray {
+public class Search_In_2DArray {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 

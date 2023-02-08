@@ -2,7 +2,7 @@ package com.Practice._1;
 
 import java.util.Scanner;
 
-public class simple_interest {
+public class Simple_interest {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter principal, time and rate");
