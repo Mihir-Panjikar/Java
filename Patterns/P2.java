@@ -2,11 +2,15 @@ package com.Patterns;
 
 public class P2 {
     public static void main(String[] args) {
-        pattern1(5);
-        pattern2(5);
-        pattern3(5);
-        pattern4(5);
-        pattern7(4);
+//        pattern1(5);
+//        pattern2(5);
+//        pattern3(5);
+//        pattern4(5);
+//        pattern5(5);
+//        pattern6(5);
+//        pattern7(4);
+//        pattern8(5);
+//        pattern10(5);
     }
 
     static void pattern1(int n) {
@@ -110,6 +114,36 @@ public class P2 {
         System.out.println();
     }
 
+    static void pattern5(int n) {
+        //        *
+        //       * *
+        //      *   *
+        //     *     *
+        //    *       *
+        //     *     *
+        //      *   *
+        //       * *
+        //        *
+        //        for n = 5
+
+        for (int rows = 0; rows < 2 * n-1; rows++) {
+            for (int cols = 0; cols < 2 * n - 1; cols++) {
+                if (rows+cols == n-1 || cols-rows == n-1 || rows - cols == n-1 || rows+cols == 2*n+2) {
+                    System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+        System.out.println();
+    }
+
+    static void pattern6(int n) {
+
+    }
+
     static void pattern7(int n) {
         //           1
         //          212
@@ -135,6 +169,42 @@ public class P2 {
 
             for (int cols = 2; cols <= symbols; cols++) {
                 System.out.print(cols);
+            }
+            System.out.println();
+        }
+        System.out.println();
+    }
+
+//    static void pattern8(int n) {
+//        for (int rows = 0; rows < 2 * n; rows++) {
+//            for (int cols = 0; cols < 2 * n; cols++) {
+//                if ((cols < n - rows || cols >= n + rows)) {
+//                    System.out.print("*");
+//                }
+//                else {
+//                    System.out.print(" ");
+//                }
+//            }
+//            System.out.println();
+//        }
+//        System.out.println();
+//    }
+
+    static void pattern10(int n) {
+        //    ****
+        //    *  *
+        //    *  *
+        //    *  *
+        //    ****
+        //    for n = 5
+        for (int rows = 0; rows < n; rows++) {
+            for (int cols = 0; cols < n - 1; cols++) {
+                if (rows == 0 || cols == 0 || cols == n-2 || rows == n-1) {
+                    System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");
+                }
             }
             System.out.println();
         }
