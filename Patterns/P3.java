@@ -2,19 +2,20 @@ package com.Patterns;
 
 public class P3 {
     public static void main(String[] args) {
-        pattern1(5);
-        pattern2(5);
-        pattern4(5);
-        pattern5(5);
-        pattern6(6);
-        pattern8(5);
-        pattern9(5);
-        pattern10(5);
-        pattern11(4);
-        pattern12(5);
-        pattern13(5);
-        pattern14(5);
-        pattern15(4);
+//        pattern1(5);
+//        pattern2(5);
+          pattern3(3);
+//        pattern4(5);
+//        pattern5(5);
+//        pattern6(6);
+//        pattern8(5);
+//        pattern9(5);
+//        pattern10(5);
+//        pattern11(4);
+//        pattern12(5);
+//        pattern13(5);
+//        pattern14(5);
+//        pattern15(4);
     }
 
     static void pattern1(int n) {
@@ -58,6 +59,23 @@ public class P3 {
         System.out.println();
     }
 
+    static void pattern3(int n) {
+        //        *       *
+        //      *   *   *   *
+        //    *       *       *
+
+        for (int rows = 0; rows < n; rows++) {
+            for (int cols = 0; cols < 3 * n; cols++) {
+                if((rows == 0 && (cols == 2 || cols == 6)) || (rows == 1 && cols%2 != 0) || (rows == 2 && (cols == 0 || cols == 4 || cols == 8))) {
+                    System.out.print("* ");
+                }
+                else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+    }
 
     
     static void pattern4(int n) {

@@ -1,4 +1,4 @@
-package com.Recursion.Basics;
+package com.Recursion;
 
 //A very basic program to start understanding the concept of programming
 public class _1_Message {
